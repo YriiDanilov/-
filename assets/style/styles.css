@@ -1,0 +1,364 @@
+@import '/node_modules/@a1rth/css-normalize/index.css';
+
+
+@font-face {
+  font-family: "Roboto", sans-serif;
+  src : url("/assets/fonts/Roboto-Regular.woff2") format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Roboto", sans-serif;
+  src: url("/assets/fonts/Roboto-Medium.woff2") format("woff2");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Roboto", sans-serif;
+  src: url("/assets/fonts/Roboto-Bold.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Montserrat", sans-serif;
+  src: url('/assets/fonts/Montserrat-Regular.woff2') format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Montserrat", sans-serif;
+  src: url("/assets/fonts/ontserrat-SemiBold.woff2") format("woff2");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+:root {
+  --color-dark: #141414;
+  --color-ligth-gray: #7A7A7A ;
+  --color-dark-gray: #424242;
+  --color-orange: #BF6024;
+  --color-dark-blue: #45536D;
+
+  --border-radius: 50px;
+  --border: 1px solid var(--color-ligth-gray);
+
+  --font-family-base: "Roboto", sans-serif;
+  --font-family-accent: "Montserrat", sans-serif;
+
+  --container-width: 1140px;
+  --padding-inline: 390px;
+}
+
+body {
+  font-family: var(--font-family-base);
+  background-color: #ffffff;
+  font-size: 14px;
+  color: var(--color-ligth-gray);
+  line-height: 1.30;
+  max-width: 1920px;
+}
+
+.container {
+  margin-inline: auto;
+  width: var(--container-width);
+}
+
+/* header */
+
+header a {
+  color: var(--color-dark-blue);
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+.header-up-container {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  border-bottom: var(--border);
+  padding-bottom: 32px;
+  padding-top: 43px;
+}
+
+.first-in-uppper-container{
+  display: flex;
+  align-items: baseline;
+}
+
+.first-in-uppper-container a:nth-child(1) {
+  width: 41px;
+  height: 35px;
+  background-image: url("/assets/img/header_img/logo-tree.png");
+}
+
+.first-in-uppper-container a:nth-child(2) {
+  color: var(--color-dark-blue);
+  font-size: 28px;
+  font-weight: bold;
+  margin-left: 8px;
+}
+
+.first-in-uppper-container div:last-child {
+  font-style: 14px;
+  font-weight: 400;
+  color: var(--color-dark-blue);
+  margin-left: 23px;
+}
+
+
+.second-in-uppper-container {
+  display: flex;
+  column-gap: 18px;
+}
+
+.second-in-uppper-container a:first-of-type {
+  text-decoration: underline;
+}
+
+
+.header-bottom-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 24px;
+}
+
+.first-in-lower-container {
+  display: flex;
+  column-gap: 18px;
+}
+
+.second-in-lower-container {
+  display: flex;
+  column-gap: 18px;
+}
+
+/* main */
+
+.mountine-img {
+  width: 1140px;
+  height: 595px;
+  background-image: url('/assets/img/main_mountine_img/mountain\ 1.png');
+}
+
+.img-main {
+  margin-top: 36px;
+  padding-bottom: 25px;
+  border-bottom: var(--border);
+}
+
+/* habbites */
+
+.main-header {
+  font-weight: 600;
+  font-size: 64px;
+  width: 735px;
+  color: var(--color-dark-gray);
+  text-transform: uppercase;
+  margin-top: 27px;
+  margin-bottom: 32px;
+}
+
+.figure-container {
+  width: 555px;
+  height: 300px;
+}
+
+.entertainments-article-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 72px 28px;
+}
+
+.intertaiments {
+  color: var(--color-orange);
+  font-size: 28px;
+  font-weight: 600;
+  margin-bottom: 33px;
+}
+
+figure {
+  margin: 0;
+  padding: 0;
+}
+
+figcaption {
+  padding-top: 12px;
+  text-transform: uppercase;
+  color: var(--color-dark);
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.pb-124px {
+  padding-bottom: 124px;
+  border-bottom: var(--border);
+}
+
+/* book-lux */
+
+.mt-67 {
+  margin-top: 67px;
+}
+
+.pb-75 {
+  padding-bottom: 75px;
+  border-bottom: var(--border);
+}
+
+.lux-container {
+  display: flex;
+  column-gap: 29px;
+}
+
+.bgImg-lux {
+  width: 555px;
+  height: 600px;
+  background-image: url("/assets/img/habitation/habitation.png");
+}
+
+.bgImg-lux {
+  padding-top: 490px;
+  padding-left: 33px;
+}
+
+.header-book-lux {
+  font-size: 24px;
+  font-weight: 600;
+  color: #ffffff;
+  margin-bottom: 24px;
+}
+
+.btn {
+  font-size: 14px;
+  font-weight: 500;
+  background-color: #BF6024;
+  border: 1px solid #E5C6B2;
+  border-radius: 50px;
+  color: #E5C6B2;
+  padding: 5px 13px;
+  white-space: nowrap;
+}
+
+.to-see {
+  background-color: transparent;
+  margin-left: 18px;
+}
+
+.lux-container article:last-of-type {
+  display: flex;
+  flex-direction: column;
+  row-gap: 30px;
+}
+
+.lux-container article:last-of-type > div {
+  width: 540px;
+  height: 285px;
+  padding: 84px 262px 28px 73px;
+  background-color: #EAEDF2;
+}
+
+
+.habbit-hotel-header{
+  width: 230px;
+  height: 62px;
+  font-size: 24px;
+  margin-bottom: 28px;
+  font-weight: 600;
+  color: var(--color-dark)
+}
+
+.pick-up {
+  background-color: transparent;
+  border: 1px solid #BF6024;
+  color: #BF6024;
+}
+
+.pick-up span {
+  display: inline-block;
+  height: 8px;
+  width: 30px;
+  background-image: url("/assets/img/habitation/arow.png");
+  background-repeat: no-repeat;
+  margin-left: 10px;
+}
+
+.btn-container {
+  display: flex;
+  column-gap: 12px;
+}
+
+.loyalty-header {
+  width: 320px;
+  height: 31px;
+  font-size: 24px;
+  margin-bottom: 11px;
+  font-weight: 600;
+  color: var(--color-dark)
+}
+
+.loyalty-information {
+  color: var(--color-dark);
+  margin-bottom: 23px;
+  width: 270px;
+}
+
+.btn-container .btn {
+  text-transform: uppercase;
+}
+
+.detailed {
+  background-color: transparent;
+  border: 1px solid #BF6024;
+  color: #BF6024;
+}
+
+/* footer */
+
+.footer {
+  display: flex;
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  justify-content: space-between;
+  padding-block: 56px 70px;
+}
+
+.footer a {
+  color: #424242;
+  font-weight: 400;
+  display: block;
+}
+
+.licence {
+  color: var(--color-dark);
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+.mb-14 {
+  margin-bottom: 14px;
+}
+
+.additional-info {
+  width: 340px;
+  height: 60px;
+}
+
+.feedback {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.feedback-link {
+  text-decoration: underline;
+}
