@@ -137,6 +137,10 @@ header a {
   column-gap: 18px;
 }
 
+.header-bottom-container div a:hover {
+  color: var(--color-dark);
+}
+
 .second-in-lower-container {
   display: flex;
   column-gap: 18px;
