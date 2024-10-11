@@ -98,7 +98,7 @@ header a {
 .first-in-uppper-container a:nth-child(1) {
   width: 41px;
   height: 35px;
-  background-image: url("/assets/img/header_img/logo-tree.png");
+  background-image: url("../img/header_img/logo-tree.png");
 }
 
 .first-in-uppper-container a:nth-child(2) {
@@ -151,7 +151,7 @@ header a {
 .mountine-img {
   width: 1140px;
   height: 595px;
-  background-image: url('/assets/img/main_mountine_img/mountain.png');
+  background-image: url('../img/main_mountine_img/mountain.png');
 }
 
 .img-main {
@@ -227,7 +227,7 @@ figcaption {
 .bgImg-lux {
   width: 555px;
   height: 600px;
-  background-image: url("/assets/img/habitation/habitation.png");
+  background-image: url("../img/habitation/habitation.png");
 }
 
 .bgImg-lux {
@@ -291,7 +291,7 @@ figcaption {
   display: inline-block;
   height: 8px;
   width: 30px;
-  background-image: url("/assets/img/habitation/arow.png");
+  background-image: url("../img/habitation/arow.png");
   background-repeat: no-repeat;
   margin-left: 10px;
 }
