@@ -228,9 +228,10 @@ figcaption {
   width: 555px;
   height: 600px;
   background-image: url("../img/habitation/habitation.png");
+  
 }
 
-.bgImg-lux {
+.bgImg-lux__wrapper {
   padding-top: 490px;
   padding-left: 33px;
 }
@@ -240,6 +241,7 @@ figcaption {
   font-weight: 600;
   color: #ffffff;
   margin-bottom: 24px;
+  margin-top: 0;
 }
 
 .btn {
@@ -267,8 +269,12 @@ figcaption {
 .lux-container article:last-of-type > div {
   width: 540px;
   height: 285px;
-  padding: 84px 262px 28px 73px;
   background-color: #EAEDF2;
+}
+
+.habbit-hotel__wrapper {
+  margin-top: 84px;
+  margin-left: 73px;
 }
 
 
@@ -299,6 +305,11 @@ figcaption {
 .btn-container {
   display: flex;
   column-gap: 12px;
+}
+
+.loyalty__wrapper {
+  margin-top: 65px;
+  margin-left: 75px;
 }
 
 .loyalty-header {
